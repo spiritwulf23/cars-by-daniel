@@ -6,7 +6,7 @@ export const CarVideo = () => {
 
   const opacity = interpolate(frame, [0, 30], [0, 1])
   const scale = interpolate(frame, [0, 60], [1.2, 1])
-  const slideUp = spring({ frame, from: 50, to: 0 })
+  const slideUp = spring({ frame, fps, from: 50, to: 0 })
 
   return (
     <AbsoluteFill style={{ backgroundColor: '#0a0a0a' }}>
