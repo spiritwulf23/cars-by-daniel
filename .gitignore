@@ -1,0 +1,40 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+.env*.local
+*.log
+npm-debug.log*
+.DS_Store
+.cagent/
+.config/
+.docker/
+AppData/
+Application Data
+Cookies
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+Local Settings
+Music
+My Documents
+NetHood
+OneDrive/
+Pictures/
+PrintHood
+Recent
+Saved Games/
+Searches/
+SendTo
+Start Menu
+Templates
+Videos/
+docs/
+peon-ping/
+taskmaster/
+test-results/
+package-lock.json
+ntuser*
